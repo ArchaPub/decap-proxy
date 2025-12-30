@@ -1,10 +1,10 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "decap"
+name = "archa-decap"
 main = "src/index.ts"
 compatibility_date = "2024-04-19"
 compatibility_flags = ["nodejs_compat"]
 workers_dev = false
-route = { pattern = "decap.mnz.sk", zone_name = "mnz.sk" }
+route = { pattern = "decap.archapub.sk", zone_name = "archapub.sk" }
 
 
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
